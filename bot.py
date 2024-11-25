@@ -5,7 +5,7 @@ from datetime import datetime
 import locale
 
 # Set locale to Serbian for month names
-locale.setlocale(locale.LC_TIME, "sr_RS.UTF-8")
+locale.setlocale(locale.LC_TIME, "sr_RS@latin")
 
 # Initialize bot
 app = Client("zenticktickbot", api_id=27258993, api_hash="493754f4c15f9cb68d645972a2af9d53", bot_token="7608648359:AAEKTGGNGzFhXjGLOk5qu9RUuEYn8WC306w")
